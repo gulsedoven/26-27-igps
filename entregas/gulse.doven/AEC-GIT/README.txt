@@ -1,37 +1,29 @@
 AEC-GIT — Process Report
 Name: Gülse Döven
-GitHub username: gulsedoven
+GitHub: gulsedoven
 
-1. Fork and clone
-I created a fork of miguelancabezon/26-27-igps in my GitHub
-account. I checked my Git installation with git --version
-and cloned my fork using git clone.
+1. I forked miguelancabezon/26-27-igps, checked my Git
+version and cloned my fork to my computer.
 
-2. Initial folder structure
-I created the folder entregas/gulse.doven/AEC-GIT and an
-empty README.txt file. I used git status to check the changes.
+2. I created entregas/gulse.doven/AEC-GIT with an empty
+README.txt, staged it and committed it with the message
+"docs: nuevo archivo". I then pushed main to my fork.
 
-3. First commit and push
-I staged README.txt with git add and created the first commit
-with the message "docs: nuevo archivo".
-I uploaded this commit to my fork using git push origin main.
+3. I created docs/modificaciones and used separate
+commits to add screenshots, write this report and
+document my progress. I checked my status and history
+with git status and git log --oneline --graph -5.
 
-4. Working branch
-I created and switched to docs/modificaciones using
-git checkout -b docs/modificaciones.
-I added the initial screenshots in a separate commit with
-the message "docs: añadir capturas iniciales".
+4. I pushed docs/modificaciones, switched to main,
+merged the working branch without conflicts and
+pushed the updated main to my fork.
 
-Screenshot evidence
-The screenshots are stored in the capturas folder:
+Screenshots are stored in capturas:
+01–03: Fork, Git version and clone.
+04–06: Status, folder creation and staging.
+07–09: Initial commit, push and new branch.
+10–13: Documentation commits and history.
+14–16: Branch push, local merge and main push.
 
-01-fork.png — Fork created on GitHub.
-02-git-version.png — Git version check.
-03-clone.png — Cloning my fork.
-04-project-status.png — Initial repository status.
-05-mkdir.png — Creating the folders and empty text file.
-06-git-add.png — Staging README.txt.
-07-first-commit.png — Creating the initial commit.
-08-first-push.png — Uploading the initial commit.
-09-new-branch.png — Creating and checking the working branch.
-10-capturas-commit.png — Committing the initial screenshots.
+Final commit, upload and PR evidence will be attached
+directly to the Pull Request on GitHub.
